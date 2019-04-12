@@ -1,7 +1,7 @@
 # NLP_Movie_Reviews
 In this report we are going to predict the sentiments of the movie reviews with the help of NLP tools and XGboost classifier.
 
-# Tools/Library:
+# Tools/Library
 Tools Used: Spyder , Notepad++ 
 Libraries Used: pandas, regex, nltk: porterstemmer, stopwords, scikit 
 
@@ -16,5 +16,7 @@ In our case XGBoost was used.
 
 # Apart from this we have used other sophisticated methods : 
 1.Text Processing: Stemming
+
 2.n-grams: Instead of just single-word tokens (1-gram/unigram) we can also include word pairs.
+
 3.Representations: Instead of simple, binary vectors we can use word counts or TF-IDF to transform those counts.
