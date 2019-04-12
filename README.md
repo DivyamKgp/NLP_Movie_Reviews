@@ -17,6 +17,6 @@ In our case XGBoost was used.
 # Apart from this we have used other sophisticated methods : 
 1.Text Processing: Stemming
 
-2.n-grams: Instead of just single-word tokens (1-gram/unigram) we can also include word pairs.
+2.n-grams: Instead of just single-word tokens (1-gram/unigram) we can also include word pairs(bi-grams).
 
-3.Representations: Instead of simple, binary vectors we can use word counts or TF-IDF to transform those counts.
+3.Representations: Instead of simple, binary vectors we can use TF-IDF to transform those counts.
