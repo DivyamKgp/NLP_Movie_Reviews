@@ -2,8 +2,8 @@
 In this report we are going to predict the sentiments of the movie reviews with the help of NLP tools and XGboost classifier.
 
 # Tools/Library
-Tools Used: Spyder , Notepad++ 
-Libraries Used: pandas, regex, nltk: porterstemmer, stopwords, scikit 
+Tools Used: Spyder, Notepad++, Ms Excel
+Libraries Used: pandas, regex, nltk: (porterstemmer, stopwords), scikit learn: (cross_val_score, train_test_split, confusion_matrix, TfidfVectorizer), XGBoost: XGBClassifier
 
 # Cleaning & Pre-processing 
 The raw text is pretty messy for these reviews so before we can do any analytics we need to clean things up: duplication removal etc.
